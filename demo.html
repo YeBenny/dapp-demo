@@ -25,11 +25,17 @@
 	</script>
 </head>
 <body>
-	<div class="d-flex flex-column align-items-center justify-content-center p-3" style="min-height: 100vh">
-		<button id="connect-button" type="button" class="btn btn-primary" onclick="connectWallet()">Connect</button>
-		<div>
-			<span>Wallet Address: </span>
-			<span id="wallet-address" style="word-break: break-all;"></span>
+	<div class="d-grid align-items-center p-3" style="min-height: 100vh">
+		<div class="row gap-3">
+    		<div class="col-12 text-center">
+				<button id="connect-button" type="button" class="btn btn-primary" onclick="connectWallet()">Connect</button>
+			</div>
+    		<div class="col-12 text-center">
+				<div>
+					<span>Wallet Address: </span>
+					<span id="wallet-address" style="word-break: break-all;"></span>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
